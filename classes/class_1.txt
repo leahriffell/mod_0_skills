@@ -1,0 +1,14 @@
+Employee
+
+attributes:
+clocked_in (boolean)
+first_name (string)
+hourly_pay (float)
+can_serve_alcohol (boolean)
+
+methods:
+clock_in (change clocked_in to true)
+clock_out (change clocked_in to false)
+greet_customer ("Hi, I'm #{first_name}!")
+change_pay (add or subtract a specific amount from hourly_pay)
+give_liquor_license (change can_serve_alcohol to true)
