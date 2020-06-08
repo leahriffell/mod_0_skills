@@ -8,7 +8,7 @@ birth_month (integer)
 total_visits (integer)
 
 methods:
-place_order (add desired dishes (string passed in as argument)
+place_order (add desired dishes to dishes_ordered (string passed in as argument))
 share_food_allergies (if has_food_allergy = true, print "I can't eat #{food_allergies}")
 celebrate_birthday (if birth_month = current month, add 'ice cream' to array of dishes_ordered)
 visit_restaurant (total_visits + 1)
