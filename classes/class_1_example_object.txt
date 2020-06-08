@@ -1,4 +1,4 @@
-Ed
+ed
 
 attributes:
 clocked_in: false
