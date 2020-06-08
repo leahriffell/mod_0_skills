@@ -1,0 +1,14 @@
+Ed
+
+attributes:
+clocked_in: false
+first_name: "Ed"
+hourly_pay: 8.00
+can_serve_alcohol: false
+
+methods:
+clock_in: clocked_in = true
+clock_out: clocked_in = false
+greet_customer: "Hi, I'm Ed!"
+change_pay(1.50): hourly_pay = hourly_pay + 1.50 = 9.50
+give_liquor_license: can_serve_alcohol = true
