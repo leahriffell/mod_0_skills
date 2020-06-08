@@ -1,0 +1,14 @@
+Sarah
+
+attributes:
+dishes_ordered: []
+has_food_allergy: true
+food_allergies: ['shellfish', 'gluten']
+birth_month: 6
+total_visits: 11
+
+methods:
+place_order: dishes_ordered = ['spaghetti', 'french fries']
+share_food_allergies: "I can't eat 'shellfish', 'gluten'"
+celebrate_birthday: dishes_ordered = ['spaghetti', 'french fries', 'ice cream']
+visit_restaurant: total_visits = total_visits + 1 = 12

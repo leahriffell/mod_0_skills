@@ -4,10 +4,11 @@ attributes:
 dishes_ordered (array)
 has_food_allergy (boolean)
 food_allergies (array)
-birth_month (string or integer)
+birth_month (integer)
+total_visits (integer)
 
 methods:
-place_order (add desired dishes (passed in as argument) to array of dishes_ordered and in nested array(s), add in quantity (integer) and price for each dish (float))
-share_food_allergies (if has_food_allergy = true, print the array of food_allergies)
-celebrate_birthday (if birth_month = current month, add 'ice cream' to array of dishes_ordered with a price of 0.00)
-calculate_total (calculate the total of all dishes in dishes_ordered and return this total)
+place_order (add desired dishes (string passed in as argument)
+share_food_allergies (if has_food_allergy = true, print "I can't eat #{food_allergies}")
+celebrate_birthday (if birth_month = current month, add 'ice cream' to array of dishes_ordered)
+visit_restaurant (total_visits + 1)
